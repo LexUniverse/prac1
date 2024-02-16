@@ -1,9 +1,13 @@
-.App {
+.center {
   text-align: center;
 }
 
+.left-text {
+  text-align: right;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 38vmin;
   pointer-events: none;
 }
 
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.textcols-item {
+  white-space: normal;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 5%;
+  text-align: center;
+}
+.textcols .textcols-item:last-child {
+  margin-right: 0 ;
 }
