@@ -1,34 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Homepage from './components/homepage.jsx';
+import About from './components/about.jsx';
+import { Route, Routes } from 'react-router-dom';
+import Contactspage from './components/contacts.jsx';
 
 function App() {
   return (
     <div>
-        <header className="App-header">
-
-            <div className="textcols">
-                <div className="textcols-item">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <p>i want this text on the left</p>
-                </div>
-                <div className="textcols-item">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <p> Welcome to my first practice work</p>
-                </div>
-                <div className="textcols-item">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <p>and this one on the right</p>
-                </div>
-            </div>
-            <a
-                className="App-link"
-                href="https://vk.com/impartialman"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                My VK
-            </a>
-        </header>
+        <Routes>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/contacts' element={<Contactspage/>}/>
+        </Routes>
     </div>
 
   );
