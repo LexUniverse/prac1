@@ -1,0 +1,46 @@
+.bodypage {
+    background-color: #282c34;
+    min-height: 80vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+.dialogspage{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 90%;
+}
+
+.dialogsList .dialog{
+    padding: 10px;
+}
+
+.messages{
+    padding-top: 0px;
+    margin-left: 25px;
+    background-color: salmon;
+    border-width: 8px;
+    border-color: black;
+    border-style: double;
+    border-radius: 2%;
+    min-height: 80vh;
+    margin-bottom: 10vh;
+    margin-top: 3vh;
+}
+
+.activename{
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: purple;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2%;
+    background-color: lightblue;
+}
+
+.messages .message{
+    padding: 10px;
+}

@@ -12,6 +12,10 @@ header{
     
 }
 
+.headerOut{
+    background-color: darkcyan;
+}
+
 .logo{    
     z-index: 7;
     width: 100px; 

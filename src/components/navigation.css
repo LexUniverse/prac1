@@ -1,0 +1,27 @@
+.navigationList .navigationItem:last-child{
+    margin-right: 0;
+}
+
+.navigationList{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282c34;
+    text-decoration: none !important;
+}
+
+.Navig{
+    background-color: #282c34;
+    padding: 5px;
+}
+
+.navigationItem{
+    white-space: normal;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    color: inherit;
+    margin-right: 5%;
+    text-decoration: none !important;
+}
